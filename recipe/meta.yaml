@@ -1,5 +1,5 @@
 {% set name = "jekyll-twitter-plugin" %}
-{% set version = "2.0.0" %}
+{% set version = "2.1.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 0ff94481ce4c600d0892fd9ca4762f09f0fc9486b35fe0141ca133f395696c4e
+  sha256: d25ee86813705244dcec3163d9a110a1c0216e157dcf6cf88ab57cf389887acd
 
 build:
   noarch: generic
